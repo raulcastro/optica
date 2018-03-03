@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About us</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/contact-form.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.equalheights.js"></script> 
+<script src="js/jquery.ui.totop.js"></script>
+
+<script>
+    $(window).load(function(){
+        var curAccord = 0;
+        var oldAccord = 0;
+
+        $('._accodList1').find('p').slideUp(1);
+        $('._accodList1').find('strong').addClass('color1');
+
+        setTimeout(function(){
+            $('._accodList1 > li').eq(0).find('p').slideDown();
+            $('._accodList1 > li').eq(0).find('strong').addClass('color2');
+        },200)
+
+        $('._accodList1').find('._plus, strong').click(
+            function(){
+                if(curAccord !== $(this).parent().index()){
+                    oldAccord = curAccord;
+                    curAccord = $(this).parent().index(); 
+                    
+                    $('._accodList1 > li').eq(curAccord).find('strong').removeClass('color1');
+                    $('._accodList1 > li').eq(curAccord).find('strong').addClass('color2');
+                    $('._accodList1 > li').eq(curAccord).find('p').slideDown();
+                    
+                    $('._accodList1 > li').eq(oldAccord).find('strong').removeClass('color2');
+                    $('._accodList1 > li').eq(oldAccord).find('strong').addClass('color1');
+                    $('._accodList1 > li').eq(oldAccord).find('p').slideUp();
+                }
+
+            }
+        )
+        
+        
+        $('._accodList2').find('p').slideUp(1);
+        $('._accodList2').find('strong').addClass('color1');
+
+        setTimeout(function(){
+            $('._accodList2 > li').eq(0).find('p').slideDown();
+            $('._accodList2 > li').eq(0).find('strong').addClass('color2');
+        },200)
+
+        $('._accodList2').find('._plus, strong').click(
+            function(){
+                if(curAccord !== $(this).parent().index()){
+                    oldAccord = curAccord;
+                    curAccord = $(this).parent().index(); 
+                    
+                    $('._accodList2 > li').eq(curAccord).find('strong').removeClass('color1');
+                    $('._accodList2 > li').eq(curAccord).find('strong').addClass('color2');
+                    $('._accodList2 > li').eq(curAccord).find('p').slideDown();
+                    
+                    $('._accodList2 > li').eq(oldAccord).find('strong').removeClass('color2');
+                    $('._accodList2 > li').eq(oldAccord).find('strong').addClass('color1');
+                    $('._accodList2 > li').eq(oldAccord).find('p').slideUp();
+                }
+
+            }
+        )
+    }) 
+</script>
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/wow/wow.js"></script>
+<script src="js/wow/device.min.js"></script>
+<script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+</script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
+      <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
+        <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
+      </map>
+  </div>
+  <![endif]-->
+</head>
+<body>
+<!--header-->
+<header class="clearfix">
+    <div class="container">
+        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        <div class="box1 clearfix">
+            <ul class="follow_icon">
+                <li><a href="index-1.html#" class="fa fa-facebook"></a></li>
+                <li><a href="index-1.html#" class="fa fa-google-plus"></a></li>
+                <li><a href="index-1.html#" class="fa fa-rss"></a></li>
+                <li><a href="index-1.html#" class="fa fa-pinterest"></a></li>
+                <li><a href="index-1.html#" class="fa fa-linkedin"></a></li>
+            </ul>
+            <div class="box2 clearfix">
+                <img src="img/call_girl.png" alt="">
+                <p>Need a helping hand? Call our office search<br>helpline for advice - <span>0800 368 0380</span></p>
+            </div>
+        </div>
+    </div>
+    <nav id="stuck_container" class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+        <div class="container">
+            <ul class="nav sf-menu clearfix">
+                <li><a href="index.html">Home</a></li>
+                <li class="active sub-menu"><a href="index-1.html">About us</a><span></span>
+                    <ul class="submenu">
+        				<li><a href="index-1.html#">history</a></li>
+        				<li><a href="index-1.html#">news</a><span class="fa fa-angle-right"></span>
+                            <ul class="submenu">
+                                <li><a href="index-1.html#">latest</a></li>
+                                <li><a href="index-1.html#">archive</a></li>
+                              </ul> 
+                        </li>
+        				<li><a href="index-1.html#">testimonials</a></li>
+        			</ul>
+                </li>
+                <li><a href="index-2.html">eye care</a></li>
+                <li><a href="index-3.html">Eyewear products</a></li>
+                <li><a href="index-4.html">Contacts</a></li>
+            </ul>
+             <form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">
+                <input type="text" name="s" value="" onfocus="if (this.value == '') {this.value=''}" onblur="if (this.value == '') {this.value=''}">
+                <a href="index-1.html#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
+            </form>
+        </div>
+    </nav>
+</header>
+<div class="content indent">
+    <!--content-->
+        <div class="who-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp">
+                        <h2>What We Do<span>Vivamus nec tincidunt odio, sit amet</span></h2>
+                        <div class="thumb-pad4">
+                            <div class="thumbnail">
+                                <figure><img src="img/page2_pic1.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <h3>Pellentesque ultrices quam dui, et consequat justo pharetra ac.</h3>
+                                    <p>Phasellus eget enim sem. Etiam vitae eleifend velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae convallis odio, id congue enim. Morbi libero mauris, rhoncus vitae efficitur pellentesque, placerat in turpis. In a nisi ma ttis, tempus mauris non, ultrices purus. </p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h2>Our History<span>Integer pellentesque ipsum eu massa</span></h2>
+                        <ul class="list4">
+                            <li>
+                                <time datetime="2014-01-01">23<span>March</span></time>
+                                <div class="extra-wrap">
+                                    <h3>Quisque at fermentum.</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <time datetime="2014-01-01">27<span>March</span></time>
+                                <div class="extra-wrap">
+                                    <h3>Praesent porta lectus.</h3>
+                                    <p>Scelerisque vitae leo. Nullam non massa mi. Ut sodales purus. Pellentesque dui purus, pharetra Vivamus vitae dolor velit. Mauris rutrum risus ut odio tincidunt, id auct.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <time datetime="2014-01-01">29<span>March</span></time>
+                                <div class="extra-wrap">
+                                    <h3>Aliquam eget odio nisi.</h3>
+                                    <p>Ut quam nibh, luctus a ipsum pulvinar, imperdiet sodales purus. Pellentesque dui purus, pharetra vitae dolor velit. Mauris rutrum risus ut odio tincidunt, id auctor.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <h2>Our Values<span>Curabitur tincidunt risus sed mi</span></h2>
+                        <h3>Fusce imperdiet sapien enim.</h3>
+                        <p>Nulla sagittis nisl a dapibus hendrerit. Donec interdum, eros aliquet nisi quam non arcu. Nam venenatis dui at erat placer at fringilla. Aenean interdum</p>
+                        <ul class="_accodList _accodList1 indent">
+                            <li>
+                                <strong><span></span>eu mattis posuere, diam arcu eleifend</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>lacus, non molestie felis turpis sed sapie</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>Ut quam nibh, luctus a ipsum</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>Nemo enim ipsam voluptatem quia</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>At vero eos et accusamus et iusto</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>Sed ut perspiciatis unde omnis</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>Ut enim ad minima veniam</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="thumb-box6">
+            <div class="container">
+                <h2 class="wow fadeIn">Happy Patients<span>Morbi tortor urna, varius ac interdum</span></h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
+                        <div class="thumb-pad3 maxheight">
+                            <div class="thumbnail">
+                                <figure><img src="img/page2_pic2.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <a href="index-1.html#">Eva Adamson</a>
+                                    <p class="description">Patient</p>
+                                    <hr>
+                                    <p>Nullam non massa mi. Ut quam nibh, luctus a ipsum pulvinar, imperdiet sodales purus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="thumb-pad3 maxheight">
+                            <div class="thumbnail">
+                                <figure><img src="img/page2_pic3.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <a href="index-1.html#">David Austin</a>
+                                    <p class="description">Patient</p>
+                                    <hr>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="thumb-pad3 maxheight">
+                            <div class="thumbnail">
+                                <figure><img src="img/page2_pic4.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <a href="index-1.html#">Natalie Barnes</a>
+                                    <p class="description">Patient</p>
+                                    <hr>
+                                    <p>Vivamus vitae dolor velit. Mauris rutrum risus ut odio tincidunt, id auctor est placerat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="thumb-pad3 maxheight">
+                            <div class="thumbnail">
+                                <figure><img src="img/page2_pic5.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <a href="index-1.html#">Thomas Bishop</a>
+                                    <p class="description">Patient</p>
+                                    <hr>
+                                    <p>Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non providen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thumb-box7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp">
+                        <h4><img src="img/title_icon3.png" alt="">Our advantages</h4>
+                        <ul class="list7">
+                            <li>
+                                <span>1.</span>
+                                <div class="extra-wrap">
+                                    <h5>Pellentesque ultrices quam.</h5>
+                                    <p>Dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>2.</span>
+                                <div class="extra-wrap">
+                                    <h5>dui, et consequat justo.</h5>
+                                    <p>Weniam, quis nostrud exercitation ullamco laboris  ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>3.</span>
+                                <div class="extra-wrap">
+                                    <h5>Mauris id malesuada nibh.</h5>
+                                    <p>Dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4><img src="img/title_icon4.png" alt="">Patient Info</h4>
+                        <h5>Quis autem vel eum iure reprehenderit.</h5>
+                        <p>Phasellus eget enim sem. Etiam vitae eleifend velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae convallis odio, id congue enim. Morbi libero mauris, rhoncus vitae efficitur pellent.</p>
+                        <ul class="_accodList _accodList2 indent">
+                            <li>
+                                <strong><span></span>Sed velit augue, porttitor eu urna auctor</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>Fusce bibendum consequat vestibulum</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>ultricies ultricies sapien</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>orci dui mattis vel purus consequat, congue</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>pellentesque turpis Nam ac</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>urna tristique condimentum erat at</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                            <li>
+                                <strong><span></span>consequat arcu Nulla sagi</strong>
+                                <p>Temporibus autem quibusdam et aut offiis debitis aut rerum necessitatibus saepe.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <h4><img src="img/title_icon5.png" alt="">testimonials</h4>
+                        <ul class="list5">
+                            <li>
+                                <figure><img src="img/quote.png" alt=""></figure>
+                                <div class="extra-wrap">
+                                    <p>Phasellus eget enim sem. Etiam vitae eleifend velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae convallis odio, id congue enim. Morbi libero mauris, rhoncus vitae efficitur.</p>
+                                    <a href="index-1.html#">Maria Brooks</a>
+                                    <p class="description">Patient</p>
+                                </div>
+                            </li>
+                            <li>
+                                <figure><img src="img/quote.png" alt=""></figure>
+                                <div class="extra-wrap">
+                                    <p>Etiam vitae eleifend velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae convallis odio, id congue enim. Morbi libero mauris, rhoncus vitae efficitur pellentesque, placerat in turpis. </p>
+                                    <a href="index-1.html#">Steven Donovan</a>
+                                    <p class="description">Patient</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
+                <p class="title">Copyright</p>
+                <p class="name">Holbern</p>
+                <p class="prev">&copy; <em id="copyright-year"></em> <a href="index-5.html">Privacy Policy</a></p>
+                <ul class="follow_icon2">
+                    <li><a href="index-1.html#" class="fa fa-facebook"></a></li>
+                    <li><a href="index-1.html#" class="fa fa-google-plus"></a></li>
+                    <li><a href="index-1.html#" class="fa fa-rss"></a></li>
+                    <li><a href="index-1.html#" class="fa fa-pinterest"></a></li>
+                    <li><a href="index-1.html#" class="fa fa-linkedin"></a></li>
+                </ul> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="title">About Us</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiex modo consequat.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
+                <p class="title">Contact Us</p>
+                <ul class="list1">
+                    <li>
+                        <figure><img src="img/foo_icon1.png" alt=""></figure>
+                        <div class="extra-wrap">
+                            <p>Freephone:  +1 800 559 6580</p>
+                        </div>
+                    </li>
+                    <li>
+                        <figure><img src="img/foo_icon2.png" alt=""></figure>
+                        <div class="extra-wrap">
+                            <a href="index-1.html#">contact@demolink.org</a>
+                        </div>
+                        </li>
+                    <li>
+                        <figure><img src="img/foo_icon3.png" alt=""></figure>
+                        <div class="extra-wrap">
+                            <p>9870 St Vincent Place,<br>Los Angeles, DC 45 Fr 45.<br>United States of America</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body><!-- Google Tag Manager --><noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+</html>
