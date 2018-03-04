@@ -205,9 +205,13 @@ nav.tm_navbar li {
 	line-height: 18px;
 	margin: 0 0 0 46px;
 	float: left;
+    font: 15px 'Roboto Condensed';
+    color: #ffffff;
+    text-transform: uppercase;
 }
 nav.tm_navbar li:first-child {
 	margin: 0;
+    
 }
 nav.tm_navbar li a {
 	position: relative;
