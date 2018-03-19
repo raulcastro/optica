@@ -22,7 +22,7 @@
                     Main layout styles
 =========================================================*/
 body {
-	background: #93bcdb url(http://static.livedemo00.template-help.com/wt_52118/img/pattern1.png) repeat;
+	background: #3f888f repeat;
 	font: 13px 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.428571429;
 	color: #959ba0;
@@ -194,7 +194,7 @@ nav.tm_navbar {
 	margin: 20px 0 0 0;
 	float: none;
 	min-height: 0;
-	background: #53afee;
+	background: #3f888f;
 }
 nav.tm_navbar .nav.sf-menu {
 	float: left;
@@ -225,21 +225,21 @@ nav.tm_navbar li a {
 	transition: all 0.25s;
 }
 nav.tm_navbar li.active > a {
-	color: #a0d7fe;
+	color: #ffffff;
 	background: none;
 }
 nav.tm_navbar li.active > span {
 	color: #a0d7fe;
 }
 nav.tm_navbar li:hover > a {
-	color: #a0d7fe;
+	color: #08088a;
 	background: none;
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
 	transition: all 0.25s;
 }
 nav.tm_navbar li:hover > span {
-	color: #a0d7fe;
+	color: #08088a;
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
 	transition: all 0.25s;
