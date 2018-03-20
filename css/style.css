@@ -71,7 +71,7 @@ h2 {
 	font: bold 36px/36px 'Roboto Condensed';
 	text-transform: uppercase;
 	margin: 0 0 42px 0;
-	color: #414141;
+	color: #0B4C5F;
 	text-align: center;
 }
 h2 span {
@@ -232,7 +232,7 @@ nav.tm_navbar li.active > span {
 	color: #a0d7fe;
 }
 nav.tm_navbar li:hover > a {
-	color: #08088a;
+	color: #0B4C5F;
 	background: none;
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
@@ -415,7 +415,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	font: bold 48px/48px 'Roboto Condensed';
 	text-transform: uppercase;
 	margin-bottom: 16px;
-	color: #414141;
+	color: #0B4C5F;
 }
 .thumb-box2 p {
 	font: italic 16px/26px 'Roboto Condensed';
@@ -795,14 +795,14 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .thumb-pad8 .thumbnail .caption .lnk {
 	font: 20px/20px 'Roboto Condensed';
-	color: #7d8286;
+	color: #0B4C5F;
 	text-transform: none;
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
 	transition: all 0.25s;
 }
 .thumb-pad8 .thumbnail .caption .lnk:hover {
-	color: #53afee;
+	color:  #3f888f;
 }
 .thumb-pad8 .thumbnail .caption p {
 	font: 13px/18px 'Roboto Condensed';
