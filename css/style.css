@@ -558,8 +558,8 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	padding: 0;
 }
 .thumb-pad2 .thumbnail .caption .title {
-	font: 20px/20px 'Roboto Condensed';
-	color: #7d8286;
+	font: 18px/18px 'Roboto Condensed';
+	color: #0B4C5F;
 	margin-bottom: 4px;
 	text-transform: none;
 }
@@ -844,12 +844,14 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	background: url(http://static.livedemo00.template-help.com/wt_52118/img/more.png) 0 top no-repeat;
 }
 .btn-default.btn1:hover {
-	color: #414141;
+	color: #0B4C5F;
 	background: none;
 	text-decoration: none;
 }
 .btn-default.btn1:hover i {
 	background: url(http://static.livedemo00.template-help.com/wt_52118/img/more.png) 0 bottom no-repeat;
+    
+
 }
 .btn-default.btn2 {
 	box-shadow: none;
@@ -860,7 +862,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	margin: 0;
 	border-radius: 0;
 	color: #ffffff;
-	background: #53afee;
+	background: #3f888f;
 	text-transform: uppercase;
 	border: none;
 	float: none;
@@ -872,7 +874,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 .btn-default.btn2:hover {
 	color: #ffffff;
 	text-shadow: none;
-	background: #414141;
+	background: #3f888f;
 	text-decoration: none;
 }
 .btn-default.btn3 {
@@ -884,7 +886,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	margin: 0;
 	border-radius: 0;
 	color: #ffffff;
-	background: #53afee;
+	background: #3f888f;
 	text-transform: uppercase;
 	border: none;
 	float: none;
@@ -895,7 +897,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 .btn-default.btn3:hover {
 	color: #ffffff;
 	text-shadow: none;
-	background: #414141;
+	background: #0B4C5F;
 	text-decoration: none;
 }
 .btn-default.btn4 {
@@ -907,7 +909,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	margin: 0;
 	border-radius: 0;
 	color: #ffffff;
-	background: #53afee;
+	background: #3f888f;
 	border: none;
 	float: none;
 	-webkit-transition: all 0.25s;
@@ -917,7 +919,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 .btn-default.btn4:hover {
 	color: #ffffff;
 	text-shadow: none;
-	background: #414141;
+	background: #0B4C5F;
 	text-decoration: none;
 }
 /* list
