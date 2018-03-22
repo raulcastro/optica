@@ -48,6 +48,7 @@ textarea, input[type="text"], input[type="email"], input[type="search"], input[t
 p {
 	margin-bottom: 21px;
 	line-height: 18px;
+    font-size: 15px;
 }
 p strong {
 	font-weight: 600;
