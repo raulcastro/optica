@@ -388,7 +388,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	border: none;
 	z-index: 20;
 	text-indent: -9999px;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/top.png) 0 top no-repeat;
+	background: url(/img/top.png) 0 top no-repeat;
 }
 #toTop:hover {
 	outline: none;
@@ -410,7 +410,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	overflow: hidden;
 	padding: 77px 0 80px 0;
 	text-align: center;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/pattern2.png) repeat;
+	background: url(/img/pattern2.png) repeat;
 }
 .thumb-box2 .title {
 	font: bold 48px/48px 'Roboto Condensed';
@@ -450,7 +450,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	overflow: hidden;
 	padding: 82px 0 50px 0;
 	text-align: center;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/pattern2.png) repeat;
+	background: url(/img/pattern2.png) repeat;
 }
 .thumb-box7 {
 	overflow: hidden;
@@ -468,7 +468,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	overflow: hidden;
 	padding: 82px 0 50px 0;
 	text-align: center;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/pattern2.png) repeat;
+	background: url(/img/pattern2.png) repeat;
 }
 .thumb-box9 p {
 	font: 12px/24px 'Roboto Condensed';
@@ -486,7 +486,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	overflow: hidden;
 	padding: 82px 0 35px 0;
 	text-align: center;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/pattern2.png) repeat;
+	background: url(/img/pattern2.png) repeat;
 }
 .thumb-box13 {
 	text-align: center;
@@ -842,7 +842,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	width: 13px;
 	height: 13px;
 	display: inline-block;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/more.png) 0 top no-repeat;
+	background: url(/img/more.png) 0 top no-repeat;
 }
 .btn-default.btn1:hover {
 	color: #0B4C5F;
@@ -850,7 +850,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	text-decoration: none;
 }
 .btn-default.btn1:hover i {
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/more.png) 0 bottom no-repeat;
+	background: url(/img/more.png) 0 bottom no-repeat;
     
 
 }
@@ -1171,13 +1171,13 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	color: #53afee;
 }
 ._accodList > li strong.color2 span {
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/plus.png) 0 bottom no-repeat;
+	background: url(/img/plus.png) 0 bottom no-repeat;
 }
 ._accodList > li span {
 	width: 16px;
 	height: 16px;
 	overflow: hidden;
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/plus.png) 0 top no-repeat;
+	background: url(/img/plus.png) 0 top no-repeat;
 	float: left;
 	display: inline-block;
 	margin: 7px 8px 0 0;
@@ -1207,7 +1207,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	transition: all 0.25s;
 }
 ._accodList li strong:hover span {
-	background: url(http://static.livedemo00.template-help.com/wt_52118/img/plus.png) 0 bottom no-repeat;
+	background: url(/img/plus.png) 0 bottom no-repeat;
 }
 /* search
 ========================================================*/
