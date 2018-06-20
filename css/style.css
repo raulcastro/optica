@@ -884,7 +884,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	display: inline-block;
 	padding: 0 20px;
 	font: bold 18px/38px 'Roboto Condensed';
-	margin: 0;
+	margin: 5px;
 	border-radius: 0;
 	color: #ffffff;
 	background: #3f888f;
