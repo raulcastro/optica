@@ -98,52 +98,10 @@
 
 <body>
     <!--header-->
-    <header class="clearfix">
-        <div class="container">
-            <h1 class="navbar-brand navbar-brand_">
-                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-            </h1>
-            <div class="box1 clearfix">
-                <ul class="follow_icon">
-                    <li>
-                        <a href="index.html#" class="fa fa-facebook"></a>
-                    </li>
-                    <li>
-                        <a href="index.html#" class="fa fa-twitter"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <nav id="stuck_container" class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
-            <div class="container">
-                <ul class="nav sf-menu clearfix">
-                    <li class="active"><a href="index.html">Menu</a></li>
-                    <li><a href="index-3.html">Catalogo de productos</a></li>
-                    <li><a href="index-2.html">Liquido para lentillas</a></li>
-                    <li><a href="index-2.html">Cuidado ocular</a></li>
-                    <li><a href="index-4.html">Contacto</a></li>
-                    <!--<li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
-                    <ul class="submenu">
-        				<li><a href="index.html#">  </a></li>
-        				<li><a href="index.html#"></a><span class="fa fa-angle-right"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html#"></a></li>
-                                <li><a href="index.html#"></a></li>
-                              </ul> 
-                        </li>
-        				<li><a href="index.html#"></a></li>
-        			</ul>
-                </li>-->
 
-                </ul>
-                <!--<form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">
-                <input type="text" name="s" value="" onfocus="if (this.value == '') {this.value=''}" onblur="if (this.value == '') {this.value=''}">
-                <a href="index.html#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
-            </form>-->
-            </div>
-        </nav>
+        <?php include('includes/header.php'); ?>
         <div class="main-container col1-layout">
-            <div class="container">
+            <div class="content">
                 <div class="row">
                     <div class="col-main">
                         <div class="product-view-area">
@@ -236,7 +194,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    
 
     <!--footer-->
     <footer>

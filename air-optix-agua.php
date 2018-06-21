@@ -93,54 +93,16 @@
 </head>
 <body>
 <!--header-->
-<header class="clearfix">
-    <div class="container">
-        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
-        <div class="box1 clearfix">
-            <ul class="follow_icon">
-                <li><a href="index.html#" class="fa fa-facebook"></a></li>
-                <li><a href="index.html#" class="fa fa-twitter"></a></li>
-                
-            </ul>
-            
-        </div>
-    </div>
-    <nav id="stuck_container" class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
-        <div class="container">
-            <ul class="nav sf-menu clearfix">
-                <li class="active"><a href="index.html">Menu</a></li>
-                 <li><a href="index-3.html">Catalogo de productos</a></li>
-                <li><a href="index-2.html">Liquido para lentillas</a></li>
-                <li><a href="index-2.html">Cuidado ocular</a></li>
-                <li><a href="index-4.html">Contacto</a></li>
-                <!--<li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
-                    <ul class="submenu">
-        				<li><a href="index.html#">  </a></li>
-        				<li><a href="index.html#"></a><span class="fa fa-angle-right"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html#"></a></li>
-                                <li><a href="index.html#"></a></li>
-                              </ul> 
-                        </li>
-        				<li><a href="index.html#"></a></li>
-        			</ul>
-                </li>-->
-               
-            </ul>
-             <!--<form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">
-                <input type="text" name="s" value="" onfocus="if (this.value == '') {this.value=''}" onblur="if (this.value == '') {this.value=''}">
-                <a href="index.html#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
-            </form>-->
-        </div>
-    </nav>
-    <div class="main-container col1-layout">
-    <div class="container">
+
+   <?php include('includes/header.php'); ?>
+<div class="main-container col1-layout">
+    <div class="content">
       <div class="row">
         <div class="col-main">
           <div class="product-view-area">
             <div class="product-big-image col-xs-12 col-sm-5 col-lg-5 col-md-5">
               <div class="icon-sale-label sale-left"></div>
-              <div class="large-image"> <a href="img/bio2.jpg" class="cloud-zoom" id="zoom1" rel="useWrapper: false, adjustY:0, adjustX:20"> <img class="zoom-img" src="img/bio2.jpg" alt="products"> </a> </div>
+              <div class="large-image"> <a href="img/air.jpg" class="cloud-zoom" id="zoom1" rel="useWrapper: false, adjustY:0, adjustX:20"> <img class="zoom-img" src="img/air.jpg" alt="products"> </a> </div>
               <!--<div class="flexslider flexslider-thumb">
                 <ul class="previews-list slides">
                   <li><a href='images/products/blusatulum1.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/blusatulum1.jpg' "><img src="images/products/blusatulum1.jpg" alt = "Thumbnail 2"/></a></li>
@@ -148,14 +110,14 @@
                   <li><a href='images/products/blusatulum2.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/blusatulum2.jpg' "><img src="images/products/blusatulum2.jpg" alt = "Thumbnail 1"/></a></li>
                   <!--<li><a href='images/products/product-fashion-1c.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/product-fashion-1c.jpg' "><img src="images/products/product-fashion-1c.jpg" alt = "Thumbnail 2"/></a></li>
                   <li><a href='images/products/product-fashion-1d.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/product-fashion-1d.jpg' "><img src="images/products/product-fashion-1d.jpg" alt = "Thumbnail 2"/></a></li>-->
-               
+                
               
               <!-- end: more-images --> 
               
             </div>
             <div class="col-xs-12 col-sm-7 col-lg-7 col-md-7 product-details-area">
               <div class="short-description">
-                <h1>Biofinity</h1>
+                <h1>Air Optix Aqua</h1>
               </div>
               <div class="price-box">
                 <p class="special-price"> <span class="price-label">PRECIO ESPECIAL</span> <span class="price"> $200 MXN </span> </p>
@@ -165,20 +127,21 @@
                 <!--<p class="availability in-stock pull-right">Disponible: <span>Acuvue Oasys 6 pack</span></p>-->
               </div>
               <div class="short-description">
-                <p>Laboratorio: CooperVision<br>
-                    Marca: Biofinity<br>
+                <p>Laboratorio: Alcon<br>
+                    Marca: Air Optix<br>
                     Categoría: Lentes para Miopioa/Hipermetropia<br>
-                    Material: Comfilcon A<br>
+                    Material: Lotrafilcon B<br>
                     Contenido del embalaje: 6 lentes<br>
+                    Protección contra los rayos UV: Sí<br>
                     Tiempo de uso: Mensual.<br>
-                    Contenido de agua: 48%<br><br>
+                    Contenido de agua: 33%<br><br>
                     
                                                                                   
-                    •	Biofinity XR 6, para usuarios con elevadas graduaciones de miopía/hipermetropía.<br><br>
-                    •	Fabricada por el laboratorio CooperVision con el propósito de maximizar la hidratación y el confort, estas lentillas permiten que sus ojos respiren y los mantienen, de manera natural, hidratados.<br><br>
-                    •	Buena elección para usuarios que sufren de sequedad ocular y para usuarios expuestos a ambientes exigentes/adversos, como locales con aire acondicionado.
+                    • Permiten que sus ojos respiren <br>
+                    •	Son fabricadas con la tecnología SmartshieldTM - Lentes Lentes cómodas e hidratantes.<br>
+                    •	Son resistentes a la acumulación de residuos.<br><br>
                     
-                    
+                    * Alertamos que el laboratorio Alcon está modificando la imagen de las cajas de estas lentillas y, por ello, puede recibir cualquier caja de la imagen.
                     
                   </p>
               </div>
@@ -236,7 +199,7 @@
       </div>
     </div>
   </div>
-</header>
+
 
 <!--footer-->
 <footer>

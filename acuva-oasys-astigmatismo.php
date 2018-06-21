@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>home</title>
+<title>Clara Visión Playa del Carmen</title>
 <meta charset="utf-8">    
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="img/fesa.ico" type="image/x-icon">
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="img/fesa.ico" type="image/x-icon" />
 <meta name="description" content="Your description">
 <meta name="keywords" content="Your keywords">
 <meta name="author" content="Your name">
@@ -93,59 +93,15 @@
 </head>
 <body>
 <!--header-->
-<header class="clearfix">
-    <div class="container">
-        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
-        <div class="box1 clearfix">
-            <ul class="follow_icon">
-                <li><a href="index.html#" class="fa fa-facebook"></a></li>
-                <li><a href="index.html#" class="fa fa-google-plus"></a></li>
-                <li><a href="index.html#" class="fa fa-rss"></a></li>
-                <li><a href="index.html#" class="fa fa-pinterest"></a></li>
-                <li><a href="index.html#" class="fa fa-linkedin"></a></li>
-            </ul>
-            <div class="box2 clearfix">
-                <img src="img/call_girl.png" alt="">
-                <p>Need a helping hand? Call our office search<br>helpline for advice - <span>0800 368 0380</span></p>
-            </div>
-        </div>
-    </div>
-    <nav id="stuck_container" class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
-        <div class="container">
-            <ul class="nav sf-menu clearfix">
-                <li class="active"><a href="index.html">Menu</a></li>
-                 <li><a href="catalogo.html">Catalogo de productos</a></li>
-                <li><a href="index.html">Liquido para lentillas</a></li>
-                <li><a href="index.html">Cuidado ocular</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <!--<li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
-                    <ul class="submenu">
-        				<li><a href="index.html#">  </a></li>
-        				<li><a href="index.html#"></a><span class="fa fa-angle-right"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html#"></a></li>
-                                <li><a href="index.html#"></a></li>
-                              </ul> 
-                        </li>
-        				<li><a href="index.html#"></a></li>
-        			</ul>
-                </li>-->
-               
-            </ul>
-             <!--<form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">
-                <input type="text" name="s" value="" onfocus="if (this.value == '') {this.value=''}" onblur="if (this.value == '') {this.value=''}">
-                <a href="index.html#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
-            </form>-->
-        </div>
-    </nav>
+    <?php include('includes/header.php'); ?>
     <div class="main-container col1-layout">
-    <div class="container">
+    <div class="content">
       <div class="row">
         <div class="col-main">
           <div class="product-view-area">
             <div class="product-big-image col-xs-12 col-sm-5 col-lg-5 col-md-5">
               <div class="icon-sale-label sale-left"></div>
-              <div class="large-image"> <a href="img/pupilentes2.jpg" class="cloud-zoom" id="zoom1" rel="useWrapper: false, adjustY:0, adjustX:20"> <img class="zoom-img" src="img/pupilentes2.jpg" alt="products"> </a> </div>
+              <div class="large-image"> <a href="img/acuvue-3.jpg" class="cloud-zoom" id="zoom1" rel="useWrapper: false, adjustY:0, adjustX:20"> <img class="zoom-img" src="img/acuvue-3.jpg" alt="products"> </a> </div>
               <!--<div class="flexslider flexslider-thumb">
                 <ul class="previews-list slides">
                   <li><a href='images/products/blusatulum1.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/blusatulum1.jpg' "><img src="images/products/blusatulum1.jpg" alt = "Thumbnail 2"/></a></li>
@@ -153,14 +109,14 @@
                   <li><a href='images/products/blusatulum2.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/blusatulum2.jpg' "><img src="images/products/blusatulum2.jpg" alt = "Thumbnail 1"/></a></li>
                   <!--<li><a href='images/products/product-fashion-1c.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/product-fashion-1c.jpg' "><img src="images/products/product-fashion-1c.jpg" alt = "Thumbnail 2"/></a></li>
                   <li><a href='images/products/product-fashion-1d.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/products/product-fashion-1d.jpg' "><img src="images/products/product-fashion-1d.jpg" alt = "Thumbnail 2"/></a></li>-->
-              
+                >
               
               <!-- end: more-images --> 
               
             </div>
             <div class="col-xs-12 col-sm-7 col-lg-7 col-md-7 product-details-area">
               <div class="short-description">
-                <h1>Pupilentes de Fantasia</h1>
+                <h1>ACUVUE Oasys Astigmatismo</h1>
               </div>
               <div class="price-box">
                 <p class="special-price"> <span class="price-label">PRECIO ESPECIAL</span> <span class="price"> $200 MXN </span> </p>
@@ -170,11 +126,19 @@
                 <!--<p class="availability in-stock pull-right">Disponible: <span>Acuvue Oasys 6 pack</span></p>-->
               </div>
               <div class="short-description">
-                <p>Características:<br><br>
-                    Lentes suaves para uso diario.<br>
-                    material: poly-2hema<br> 
-                    agua:38%<br>
-                    </p>
+                <p>Laboratorio: Johnson & Johnson<br>
+                    Marca: Acuvue<br>
+                    Categoría: Lentes para Astigmatismo<br>
+                    Material: Senofilcon A<br>
+                    Contenido del embalaje: 6 lentes<br>
+                    Protección contra los rayos UV: Sí<br>
+                    Tiempo de uso: Uso diario, Substitución quincenal. Uso prolongado: Substitución semanal<br>
+                    Contenido de agua: 38%<br><br>
+                                                                                  
+                    • Son fabricadas con la tecnología ASD– proporcionan una buena acuidad visual para una visión nítida y estable. <br>
+                    •	Son fabricadas con la tecnología Hydraclear Plus® - Lentes cómoda e hidratadas durante todo el día, ayudando a prevenir la sensación de ojos cansados.<br>
+                    
+                  </p>
               </div>
               <div class="product-color-size-area">
                 <div class="color-area">
@@ -230,14 +194,13 @@
       </div>
     </div>
   </div>
-</header>
 
 <!--footer-->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
-                <p class="name">Clara Vision</p>
+                <p class="name">Clara Visión</p>
                 <p class="prev">&copy; <em id="copyright-year"></em> <a href="clara-vision-politicas-de-privacidad.html">Políticas de privacidad</a></p>
                 <ul class="follow_icon2">
                     <li><a href="index.html#" class="fa fa-facebook"></a></li>
@@ -267,13 +230,14 @@
                     <li>
                         <figure><img src="img/foo_icon3.png" alt=""></figure>
                         <div class="extra-wrap">
-                            <p>Washintonia No. 28, fracc.  Palmas II,<br>Playa del Carmen.</p>
+                            <p>Washintonia No. 28, fracc. Palmas II<br>Playa del Carmen.</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+  <!-- {%FOOTER_LINK} -->
 </footer>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
