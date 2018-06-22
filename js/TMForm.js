@@ -23,7 +23,7 @@ $(window).load(function(){
 					,responseMessageClass:'response-message'
 					,processingClass:'processing'
 					,onceVerifiedClass:'once-verified'
-					,mailHandlerURL:'bat/MailHandler.php'					
+					,mailHandlerURL:'bat/send-email.php'					
 					,successShowDelay:'4000'
 					,stripHTML:true
 					,recaptchaPublicKey:''
