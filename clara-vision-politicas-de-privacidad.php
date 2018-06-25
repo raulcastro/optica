@@ -111,49 +111,7 @@
 </head>
 <body>
 <!--header-->
-<header class="clearfix">
-    <div class="container">
-        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
-        <div class="box1 clearfix">
-            <ul class="follow_icon">
-                <li><a href="index.html#" class="fa fa-facebook"></a></li>
-                <li><a href="index.html#" class="fa fa-twitter"></a></li>
-                <li><a href="index.html#" class="fa fa-rss"></a></li>
-                <li><a href="index.html#" class="fa fa-pinterest"></a></li>
-                <li><a href="index.html#" class="fa fa-linkedin"></a></li>
-            </ul>
-            
-        </div>
-    </div>
-    <nav id="stuck_container" class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
-        <div class="container">
-            <ul class="nav sf-menu clearfix">
-                <li class="active"><a href="index.html"><b>Inicio</b></a></li>
-                 <li><a href="index-3.html"><b>Catalogo de productos</b></a></li>
-                <li><a href="index-2.html"><b>Liquido para lentillas</b></a></li>
-                <li><a href="index-2.html"><b>Cuidado ocular</b></a></li>
-                <li><a href="index-4.html"><b>Contacto</b></a></li>
-                <!--<li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
-                    <ul class="submenu">
-        				<li><a href="index.html#">  </a></li>
-        				<li><a href="index.html#"></a><span class="fa fa-angle-right"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html#"></a></li>
-                                <li><a href="index.html#"></a></li>
-                              </ul> 
-                        </li>
-        				<li><a href="index.html#"></a></li>
-        			</ul>
-                </li>-->
-               
-            </ul>
-             <!--<form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">
-                <input type="text" name="s" value="" onfocus="if (this.value == '') {this.value=''}" onblur="if (this.value == '') {this.value=''}">
-                <a href="index.html#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
-            </form>-->
-        </div>
-    </nav>
-</header>
+<?php include('includes/header.php'); ?>
 <div class="content indent">
     <!--content-->
     <div class="container">
@@ -203,54 +161,13 @@ También le informamos que en LENTES DE CONTACTO CLARA VISION.  No se hacen tran
                     Última fecha de emisión: 30/04/2018</p>
             </li>
             <li class="wow fadeInUp">
-                <a href="clara-vision-politicas-de-privacidad.html" class="mail">info@claravision.com</a>
+                <a href="contacto.html" class="mail">info@claravision.com</a>
             </li>
         </ul>
     </div>
 </div>
 <!--footer-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
-                <p class="name">Clara Visión</p>
-                <p class="prev">&copy; <em id="copyright-year"></em> <a href="clara-vision-politicas-de-privacidad.html">Políticas de privacidad</a></p>
-                <ul class="follow_icon2">
-                    <li><a href="index.html#" class="fa fa-facebook"></a></li>
-                    <li><a href="index.html#" class="fa fa-twitter"></a></li>
-                    
-                </ul> 
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
-                <p class="title">Nosotros</p>
-                <p>Somos una empresa mexicana que se especializa en el cuidado integral de la salud visual.</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
-                <p class="title">Contactanos</p>
-                <ul class="list1">
-                    <li>
-                        <figure><img src="img/foo_icon1.png" alt=""></figure>
-                        <div class="extra-wrap">
-                            <p>Teléfono: 984 125 7427</p>
-                        </div>
-                    </li>
-                    <li>
-                        <figure><img src="img/foo_icon2.png" alt=""></figure>
-                        <div class="extra-wrap">
-                            <a href="index.html#">info@claravision.com</a>
-                        </div>
-                        </li>
-                    <li>
-                        <figure><img src="img/foo_icon3.png" alt=""></figure>
-                        <div class="extra-wrap">
-                            <p>Washintonia No. 28, fracc. Palmas II<br>Playa del Carmen.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php include('includes/footer.php'); ?>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
 <!--coded by lynx-->

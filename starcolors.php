@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Clara Visión Playa del Carmen</title>
+<title>Clara Visión Playa del Carmen - Lentes de contacto starcolors</title>
 <meta charset="utf-8">    
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="img/fesa.ico" type="image/x-icon">
 <link rel="shortcut icon" href="img/fesa.ico" type="image/x-icon" />
-<meta name="description" content="Your description">
-<meta name="keywords" content="Your keywords">
-<meta name="author" content="Your name">
+<meta name="description" content="Lentes de contacto de hidrogel convencional Blanda, Cosmética, Esférica, Moldeada, en colores verde, azul, gris y miel">
+<meta name="keywords" content="Playa del carmen, lentes de contacto color miel, lentes de contacto color verde, azul, gris.">
+<meta name="author" content="Cynthia Gonzalez">
 <meta name = "format-detection" content = "telephone=no" />
 <!--CSS-->
 <link rel="stylesheet" href="css/bootstrap.css" >
@@ -198,52 +198,11 @@
     </div>
 
 <!--footer-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
-                <p class="name">Clara Visión</p>
-                <p class="prev">&copy; <em id="copyright-year"></em> <a href="clara-vision-politicas-de-privacidad.html">Políticas de privacidad</a></p>
-                <ul class="follow_icon2">
-                    <li><a href="index.html#" class="fa fa-facebook"></a></li>
-                    <li><a href="index.html#" class="fa fa-twitter"></a></li>
-                    
-                </ul> 
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
-                <p class="title">Nosotros</p>
-                <p>Somos una empresa mexicana que se especializa en el cuidado integral de la salud visual.</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
-                <p class="title">Contactanos</p>
-                <ul class="list1">
-                    <li>
-                        <figure><img src="img/foo_icon1.png" alt=""></figure>
-                        <div class="extra-wrap">
-                            <p>Teléfono: 984 125 7427</p>
-                        </div>
-                    </li>
-                    <li>
-                        <figure><img src="img/foo_icon2.png" alt=""></figure>
-                        <div class="extra-wrap">
-                            <a href="index.html#">info@claravision.com</a>
-                        </div>
-                        </li>
-                    <li>
-                        <figure><img src="img/foo_icon3.png" alt=""></figure>
-                        <div class="extra-wrap">
-                            <p>Washintonia No. 28, fracc. Palmas II<br>Playa del Carmen.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-  <!-- {%FOOTER_LINK} -->
-</footer>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/tm-scripts.js"></script>
-<script type="text/javascript"> 
+<?php include('includes/footer.php'); ?>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tm-scripts.js"></script>
+    <script type="text/javascript"> 
           google_api_map_init(); 
           function google_api_map_init(){ 
             var map; 
