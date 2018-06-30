@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/fesa.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/fesa.ico" type="image/x-icon" />
-    <meta name="description" content="Your description">
-    <meta name="keywords" content="Your keywords">
+    <meta name="description" content="Lentes de contacto Freshlook Colorblends son lentes de color para la corrección de la miopía/hipermetropía desechables de uso mensual, y están disponibles en 12 suaves colores: Honey,Amethyst,Green, Turquoise, Pure Hazel, Grey, Brown, True Sapphire, Brilliant Blue, Brilliant Blue, Gemstone Green, Sterling Grey">
+    <meta name="keywords" content="lentillas de colores, Playa del carmen, correccion de miopia y astigmatismo">
     <meta name="author" content="Your name">
     <meta name="format-detection" content="telephone=no" />
     <!--CSS-->

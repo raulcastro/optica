@@ -26,7 +26,7 @@
                     <li><a href="#"><b>Líquido para lentillas</b></a></li>
                     <li><a href="#"><b>Cuidado ocular</b></a></li>
                     <li><a href="contacto.html"><b>Contacto</b></a></li>
-                    <!--<li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
+                    <li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
                     <ul class="submenu">
         				<li><a href="index.html#">  </a></li>
         				<li><a href="index.html#"></a><span class="fa fa-angle-right"></span>
@@ -37,7 +37,19 @@
                         </li>
         				<li><a href="index.html#"></a></li>
         			</ul>
-                </li>-->
+                </li>
+                    <li class="sub-menu"><a href="index-1.html">About us</a><span></span>
+                    <ul class="submenu">
+        				<li><a href="#">history</a></li>
+        				<li><a href="#">news</a><span class="fa fa-angle-right"></span>
+                            <ul class="submenu">
+                                <li><a href="#">latest</a></li>
+                                <li><a href="#">archive</a></li>
+                              </ul> 
+                        </li>
+        				<li><a href="#">testimonials</a></li>
+        			</ul>
+                </li>
 
                 </ul>
                 <!--<form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">
