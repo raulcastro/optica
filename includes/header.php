@@ -26,18 +26,7 @@
                     <li><a href="#"><b>Líquido para lentillas</b></a></li>
                     <li><a href="#"><b>Cuidado ocular</b></a></li>
                     <li><a href="contacto.html"><b>Contacto</b></a></li>
-                    <li class="sub-menu"><a href="index-1.html">Inicio</a><span></span>
-                    <ul class="submenu">
-        				<li><a href="index.html#">  </a></li>
-        				<li><a href="index.html#"></a><span class="fa fa-angle-right"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html#"></a></li>
-                                <li><a href="index.html#"></a></li>
-                              </ul> 
-                        </li>
-        				<li><a href="index.html#"></a></li>
-        			</ul>
-                </li>
+                    
                     <li class="sub-menu"><a href="index-1.html">About us</a><span></span>
                     <ul class="submenu">
         				<li><a href="#">history</a></li>
@@ -58,4 +47,5 @@
             </form>-->
             </div>
         </nav>
+    
     </header>
