@@ -154,7 +154,7 @@
                             </label>
                                 <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
                                 <div class="btns">
-                                    <a href="index-4.html#" data-type="submit" class="btn-default btn3">Submit</a>
+                                    <a href="index-4.html#" data-type="submit" class="btn-default btn3">Enviar</a>
                                 </div>
                             </fieldset>
                             <div class="modal fade response-message">

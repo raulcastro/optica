@@ -133,19 +133,19 @@
     <?php include('includes/header.php'); ?>
     <div class="slider">
         <div class="camera_wrap">
-            <div data-src="img/picture1.jpg">
+            <div data-src="img/slider2.jpg">
                 <div class="camera-caption fadeIn">
                     <p class="title">Resolvemos</p>
                     <p class="description">Problemas Visuales</p>
                 </div>
             </div>
-            <div data-src="img/picture2.jpg">
+            <div data-src="img/slider3.jpg">
                 <div class="camera-caption fadeIn">
                     <p class="title">Nosotros cuidamos</p>
                     <p class="description">Tus ojos!</p>
                 </div>
             </div>
-            <div data-src="img/picture3.jpg">
+            <div data-src="img/slider5.jpg">
                 <div class="camera-caption fadeIn">
                     <p class="title">Has tu</p>
                     <p class="description">elección natural!</p>
@@ -215,23 +215,23 @@
                     <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
                         <p class="title wow fadeInUp">ARMAZONES Y LENTES DE CONTACTO</p>
                         <p class="wow fadeInUp">En clara vision te ofrecemos las mejores opciones en lentes de contacto disponibles en el mercado, porque contamos con el respaldo de grandes fabricantes de marcas de gran calidad como: Acuvue, Air optix, Biofinity, Freshlook, Frequency, Pure vision, Soflens, Avaira, Biomedics, Dailies y Hidrosoft convencional. Nuestra categoría de productos para el cuidado tus ojos permite corrigir defectos de Miopía, Hipermetropía, Astigmatismo y presbicia, además ofrecemos lentes de contacto cosméticos. </p>
-                        <a href="index-3.html" class="btn-default btn2 wow fadeInUp">Ver</a>
+
                     </div>
                 </div>
             </div>
         </div>
         <div class="thumb-box3">
             <div class="container">
-                <h2 class="wow fadeIn">Clara Visión<span>OJOS SALUDABLES - MEJOR VIDA</span></h2>
+                <h2 class="wow fadeIn">Lentes de contacto<span>Clara Vision</span></h2>
                 <div class="row">
                     <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
                         <div class="thumb-pad2">
                             <div class="thumbnail">
-                                <figure><img src="img/freshlook1.jpg" alt=""></figure>
+                                <figure><img src="img/astigmatismo.jpg" alt=""></figure>
                                 <div class="caption">
-                                    <p class="title">Freshlook-colorblends</p>
-                                    <p class="description">$$$</p>
-                                    <a href="freshlook-colorblends.html" class="btn-default btn3">Ver</a>
+                                    <p class="title">Acuvue oasys astigmatismo</p>
+                                    <p class="description"></p>
+                                    <a href="lentes-de-contacto.php" class="btn-default btn3">Ver</a>
                                 </div>
                             </div>
                         </div>
@@ -239,119 +239,11 @@
                     <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="thumb-pad2">
                             <div class="thumbnail">
-                                <figure><img src="img/starcolors1.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Starcolors</p>
-                                    <p class="description">$$$</p>
-                                    <a href="starcolors.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/fantasia1.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Pupilentes Fantasia</p>
-                                    <p class="description">$$</p>
-                                    <a href="pupilentes-fantasia.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/bio.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Biofinity</p>
-                                    <p class="description">$$$</p>
-                                    <a href="biofinity.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/day-most.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Day-Moist</p>
-                                    <p class="description">$$</p>
-                                    <a href="day-most.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/biofinity-multifocal.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Biofinity-Multifocal</p>
-                                    <p class="description">$$$</p>
-                                    <a href="biofinity-multifocal.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
                                 <figure><img src="img/air-optics-astigmatismo.jpg" alt=""></figure>
                                 <div class="caption">
-                                    <p class="title">Air optics agua astigmatisismo</p>
-                                    <p class="description">$$$</p>
-                                    <a href="air-optix-agua-astigmatismo.html" class="btn-default btn3">ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/air-optics-aqua.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Air optics agua</p>
-                                    <p class="description">$$</p>
-                                    <a href="air-optix-agua.html" class="btn-default btn3">ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/oasis.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Acuvue oasys</p>
-                                    <p class="description">$$$</p>
-                                    <a href="acuvue-oasys.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/astigmatismo.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Acuvue oasys astigmatismo</p>
-                                    <p class="description">$$$</p>
-                                    <a href="acuva-oasys-astigmatismo.html" class="btn-default btn3">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
-                        <div class="thumb-pad2">
-                            <div class="thumbnail">
-                                <figure><img src="img/evolution.jpg" alt=""></figure>
-                                <div class="caption">
-                                    <p class="title">Biomedics 55 evolution</p>
-                                    <p class="description">$$$</p>
-                                    <a href="biomedics-55-evolution.html" class="btn-default btn3">Ver</a>
+                                    <p class="title">Air optics aqua astigmatisismo</p>
+                                    <p class="description"></p>
+                                    <a href="lentes-de-contacto.php" class="btn-default btn3">ver</a>
                                 </div>
                             </div>
                         </div>
@@ -362,11 +254,129 @@
                                 <figure><img src="img/toric.jpg" alt=""></figure>
                                 <div class="caption">
                                     <p class="title">Biofinity toric</p>
+                                    <p class="description"></p>
+                                    <a href="lentes-de-contacto.php" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/fantasia1.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Pupilentes Fantasia</p>
+                                    <p class="description"></p>
+                                    <a href="pupilentes.php" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumb-box3">
+            <div class="container">
+                <h2 class="wow fadeIn"> Armazones<span>Clara Vision</span></h2>
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/armazon-madera.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Armazon madera</p>
+                                    <p class="description">$$</p>
+                                    <a href="armazones.php" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/armazon-azul-cromo.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Armazon azul cromo</p>
+                                    <p class="description">$$$</p>
+                                    <a href="armazones.php" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/Armazon-rojo.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Armazon Negro con rojo</p>
+                                    <p class="description">$$$</p>
+                                    <a href="armazones.php" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/Armazon-plata.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Armazon plata</p>
+                                    <p class="description">$$</p>
+                                    <a href="armazones.php" class="btn-default btn3">ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <!--<div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/oasis.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Acuvue oasys</p>
+                                    <p class="description">$$$</p>
+                                    <a href="acuvue-oasys.html" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <!--<div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/astigmatismo.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Acuvue oasys astigmatismo</p>
+                                    <p class="description">$$$</p>
+                                    <a href="acuva-oasys-astigmatismo.html" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <!--<div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/evolution.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Biomedics 55 evolution</p>
+                                    <p class="description">$$$</p>
+                                    <a href="biomedics-55-evolution.html" class="btn-default btn3">Ver</a>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6 wow fadeInUp">
+                        <!--<div class="thumb-pad2">
+                            <div class="thumbnail">
+                                <figure><img src="img/toric.jpg" alt=""></figure>
+                                <div class="caption">
+                                    <p class="title">Biofinity toric</p>
                                     <p class="description">$$$</p>
                                     <a href="biofinity-toric.html" class="btn-default btn3">Ver</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -431,7 +441,7 @@
 </section>-->
     <!--footer-->
     <?php include('includes/footer.php'); ?>
-  
+
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/tm-scripts.js"></script>

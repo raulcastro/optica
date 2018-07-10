@@ -71,7 +71,7 @@ h1.navbar-brand_ a img {
 h2 {
 	font: bold 36px/36px 'Roboto Condensed';
 	text-transform: uppercase;
-	margin: 0 0 42px 0;
+	margin: -50px 0 50px 0;
 	color: #0B4C5F;
 	text-align: center;
 }
@@ -282,7 +282,7 @@ nav.tm_navbar .sub-menu > ul {
 	list-style: none !important;
 	zoom: 1;
 	z-index: 11;
-	background: #53afee;
+	background: #3f888f;
 	border-radius: 7px;
 	padding: 11px 10px 11px 13px;
 	margin: 0;
@@ -806,7 +806,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	color:  #3f888f;
 }
 .thumb-pad8 .thumbnail .caption p {
-	font: 13px/18px 'Roboto Condensed';
+	font: 15px/18px 'Roboto Condensed';
 	color: #8b9196;
 	margin: 0;
 }
@@ -1546,14 +1546,14 @@ footer .col-lg-4 {
  .select-menu {
  display: inline-block !important;
  padding: 4px 4px 4px 0;
- margin: 30px 0 0 0;
+ margin: 30px 0 24px 0;
  width: 100%;
- border: 1px solid #f2f4f6;
- background: #f2f4f6;
+ border: 1px solid #ffff;
+ background: #ffff;
  color: #8c8c8c;
  cursor: pointer;
- height: 30px;
- font-size: 12px;
+ height: 35px;
+ font-size: 20px;
  vertical-align: middle;
 }
  .thumb-box2 .title {
@@ -1617,7 +1617,7 @@ footer .col-lg-4 {
  width: 100%;
 }
  header br {
- display: none;
+ display:;
 }
  .thumb-pad5 figure {
  margin: 0 0 20px 0;
@@ -1634,7 +1634,15 @@ footer .col-lg-4 {
  width: 100%;
  float: none;
 }
+    
 }
+.titulo{
+        color: #0B4C5F;
+        
+    }
+    .titulo:hover{
+        color: #3f888f;
+    }
 /*===========================================================================================================================*/
 /*Core variables and mixins*/
 /*-------------------------------------------------*/

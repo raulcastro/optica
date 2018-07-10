@@ -22,23 +22,18 @@
             <div class="container">
                 <ul class="nav sf-menu clearfix">
                     <li class="active"><a href="/"><b>Inicio</b></a></li>
-                    <li><a href="catalogo.html"><b>Catálogo de productos</b></a></li>
+                    <li class="sub-menu"><a href="#">Catálogo de productos</a><span></span>
+                    <ul class="submenu">
+        				<li><a href="armazones.php">Armazones</a></li>
+        				<li><a href="lentes-de-contacto.php">Lentes de contacto</a></li>
+        				<li><a href="pupilentes.php">Pupilentes</a></li>
+        			</ul>
+                </li>
                     <li><a href="#"><b>Líquido para lentillas</b></a></li>
                     <li><a href="#"><b>Cuidado ocular</b></a></li>
                     <li><a href="contacto.html"><b>Contacto</b></a></li>
                     
-                    <li class="sub-menu"><a href="index-1.html">About us</a><span></span>
-                    <ul class="submenu">
-        				<li><a href="#">history</a></li>
-        				<li><a href="#">news</a><span class="fa fa-angle-right"></span>
-                            <ul class="submenu">
-                                <li><a href="#">latest</a></li>
-                                <li><a href="#">archive</a></li>
-                              </ul> 
-                        </li>
-        				<li><a href="#">testimonials</a></li>
-        			</ul>
-                </li>
+                    
 
                 </ul>
                 <!--<form id="search" class="search" action="http://livedemo00.template-help.com/wt_52118/search.php" method="GET" accept-charset="utf-8">

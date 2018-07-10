@@ -52,16 +52,16 @@
     <!--content-->
     <div class="thumb-box11">
         <div class="container">
-            <h2 class="wow fadeInUp">Lente de contacto<span></span></h2>
+            <h2 class="wow fadeInUp">Lentes de contacto<span></span></h2>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 wow fadeInUp">
                    <div class="thumb-pad8 maxheight">
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic1.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="acuvue-oasys.html" class="lnk">ACUVUE Oasys</a>
+                                <a href="acuvue-oasys.html" class="lnk"><h3 class="titulo">ACUVUE Oasys</h3></a>
                                 <hr>
-                                <p>Los lentes Acuvue Oasys son lentes mensuales de hidrogel de silicona para la corrección de la miopía/hipermetropía, que pueden ser utilizadas ocasionalmente de noche. </p>
+                                <p><strong>Los lentes Acuvue Oasys son lentes mensuales de hidrogel de silicona para la corrección de la miopía/hipermetropía, que pueden ser utilizadas ocasionalmente de noche.</strong> </p>
                             </div>
                         </div>
                     </div>
@@ -71,9 +71,9 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic2.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="acuva-oasys-astigmatismo.html" class="lnk">ACUVUE Oasys Astigmatismo</a>
+                                <a href="acuva-oasys-astigmatismo.html" class="lnk"><h3 class="titulo">ACUVUE Oasys Astigmatismo</h3></a>
                                 <hr>
-                                <p>Las lentes Acuvue Oasys Astigmatism son lentes mensuales de hidrogel de silicona para la corrección de la miopía/ hipermetropía, que pueden ser utilizadas ocasionalmente de noche. </p>
+                                <p><strong>Las lentes Acuvue Oasys Astigmatism son lentes mensuales de hidrogel de silicona para la corrección de la miopía/ hipermetropía, que pueden ser utilizadas ocasionalmente de noche.</strong> </p>
                             </div>
                         </div>
                     </div>
@@ -83,10 +83,10 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic3.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="day-most.html" class="lnk">1DAY Acuvue MOIST</a>
+                                <a href="day-most.html" class="lnk"><h3 class="titulo">1DAY Acuvue MOIST</h3></a>
                                 <hr>
-                                <p>Las lentes 1 Day Acuvue Moist son lentes diarias de  hidrogel para la corrección de la miopía / hipermetropía.
-                                Gracias a la tecnología LACREON®, las lentillas permanecen cómodas e hidratadas durante todo el día. </p>
+                                <p><strong>Las lentes 1 Day Acuvue Moist son lentes diarias de  hidrogel para la corrección de la miopía / hipermetropía.
+                                Gracias a la tecnología LACREON®, las lentillas permanecen cómodas e hidratadas durante todo el día.</strong> </p>
                             </div>
                         </div>
                     </div>
@@ -96,10 +96,10 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic4.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="air-optix-agua.html" class="lnk">Air Optix Aqua</a>
+                                <a href="air-optix-agua.html" class="lnk"><h3 class="titulo">Air Optix Aqua</h3></a>
                                 <hr>
-                                <p>Las lentes de contacto Air Optix Aqua son lentes mensuales de hidrogel de silicona para la corrección de la miopía/ hipermetropía.
-                                Fabricadas por el laboratorio Alcon con el propósito de protegerle contra los agentes irritantes con el polvo y la suciedad.
+                                <p><strong>Las lentes de contacto Air Optix Aqua son lentes mensuales de hidrogel de silicona para la corrección de la miopía/ hipermetropía.
+                                Fabricadas por el laboratorio Alcon con el propósito de protegerle contra los agentes irritantes con el polvo y la suciedad.</strong>
                                 </p>
                             </div>
                         </div>
@@ -110,10 +110,10 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic5.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="air-optix-agua-astigmatismo.html" class="lnk">Air Optix Aqua Astigmatismo</a>
+                                <a href="air-optix-agua-astigmatismo.html" class="lnk"><h3 class="titulo">Air Optix Aqua Astigmatismo</h3></a>
                                 <hr>
-                                <p>Las lentes de contacto Air Optix Astigmatism son lentillas mensuales mkmde hidrogel de silicona para la corrección del astigmatismo.
-                                Fabricadas por el laboratorio Alcon Fabricadas por el laboratorio Alcon con el propósito de proporcionarle una buena estabilidad y acuidad visual.</p>
+                                <p><strong>Las lentes de contacto Air Optix Astigmatism son lentillas mensuales mkmde hidrogel de silicona para la corrección del astigmatismo.
+                                Fabricadas por el laboratorio Alcon Fabricadas por el laboratorio Alcon con el propósito de proporcionarle una buena estabilidad y acuidad visual.</strong></p>
                             </div>
                         </div>
                     </div>
@@ -123,10 +123,10 @@
                         <div class="thumbnail">
                             <figure><img src="img/biofinity.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="biofinity.html" class="lnk">Biofinity</a>
+                                <a href="biofinity.html" class="lnk"><h3 class="titulo">Biofinity</h3></a>
                                 <hr>
-                                <p>Las lentes Biofinity son lentillas mensuales de hidrogel de silicona para la corrección de la miopía/hipermetropía.
-                                Gracias al material patentado Aquaform®, estas lentillas ofrecen una buena oxigenación y combinan el alto contenido de agua con la alta transmisión de oxígeno, permitiendo que la lentillas permanezca hidratada y cómoda durante todo el día.
+                                <p><strong>Las lentes Biofinity son lentillas mensuales de hidrogel de silicona para la corrección de la miopía/hipermetropía.
+                                Gracias al material patentado Aquaform®, estas lentillas ofrecen una buena oxigenación y combinan el alto contenido de agua con la alta transmisión de oxígeno, permitiendo que la lentillas permanezca hidratada y cómoda durante todo el día.</strong>
                                 </p>
                             </div>
                         </div>
@@ -137,10 +137,10 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic7.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="biofinity-toric.html" class="lnk">Biofinity toric </a>
+                                <a href="biofinity-toric.html" class="lnk"><h3 class="titulo">Biofinity toric</h3> </a>
                                 <hr>
-                                <p>Las lentes Biofinity Toric son lentess mensuales de hidrogel de silicona para la corrección del astigmatismo que pueden ser usadas continuamente hasta 30 días seguidos.
-                                Fabricadas por el laboratorio CooperVision con el propósito de optimizar la corrección del astigmatismo
+                                <p><strong>Las lentes Biofinity Toric son lentess mensuales de hidrogel de silicona para la corrección del astigmatismo que pueden ser usadas continuamente hasta 30 días seguidos.
+                                Fabricadas por el laboratorio CooperVision con el propósito de optimizar la corrección del astigmatismo</strong>
                                 </p>
                             </div>
                         </div>
@@ -151,10 +151,10 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic8.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="biofinity-multifocal.html" class="lnk">Biofinity Multifocal </a>
+                                <a href="biofinity-multifocal.html" class="lnk"><h3 class="titulo">Biofinity Multifocal </h3></a>
                                 <hr>
-                                <p>Las lentes Biofinity Multifocal son lentillas mensuales de hidrogel de silicona para la corrección de la presbicia, que pueden ser usadas continuamente hasta 30 días seguidos.
-                                Fabricadas por el laboratorio CooperVision con el propósito de proporcionarle una visión clara y precisa en varias direcciones (de cerca, a media distancia y de lejos).
+                                <p><strong>Las lentes Biofinity Multifocal son lentillas mensuales de hidrogel de silicona para la corrección de la presbicia, que pueden ser usadas continuamente hasta 30 días seguidos.
+                                Fabricadas por el laboratorio CooperVision con el propósito de proporcionarle una visión clara y precisa en varias direcciones (de cerca, a media distancia y de lejos).</strong>
                                 </p>
                             </div>
                         </div>
@@ -165,12 +165,12 @@
                         <div class="thumbnail">
                             <figure><img src="img/page4_pic9.jpg" alt=""></figure>
                             <div class="caption">
-                                <a href="biomedics-55-evolution.html" class="lnk"> Biomedics 55 Evolution </a>
+                                <a href="biomedics-55-evolution.html" class="lnk"> <h3 class="titulo">Biomedics 55 Evolution</h3> </a>
                                 <hr>
-                                <p> Biomedics son lentillas blandas que proporcionan confort y claridad a sus ojos. Estas lentillas son muy accesibles y están disponibles en una amplia gama de parámenos para alcanzar los más diversos tipos de prescripción y corrección visual, tales como:
+                                <p> <strong>Biomedics son lentillas blandas que proporcionan confort y claridad a sus ojos. Estas lentillas son muy accesibles y están disponibles en una amplia gama de parámenos para alcanzar los más diversos tipos de prescripción y corrección visual, tales como:
                                     • Miopía / Hipermetropía 
 
-                                    • Astigmatismo </p>
+                                    • Astigmatismo</strong> </p>
                             </div>
                         </div>
                     </div>
